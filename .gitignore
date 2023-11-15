@@ -24,3 +24,8 @@ ENV/
 
 # Environment variables
 .env
+
+# images
+.jpg
+.png
+.gif
