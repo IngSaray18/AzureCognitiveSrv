@@ -13,7 +13,7 @@ def recognize_from_microphone():
     speech_translation_config = speechsdk.translation.SpeechTranslationConfig(subscription=SecretKey, region=SecretLocation)
     speech_translation_config.speech_recognition_language="en-US"
 
-    target_language="es"
+    target_language="it"
     speech_translation_config.add_target_language(target_language)
 
     audio_config = speechsdk.audio.AudioConfig(use_default_microphone=True)

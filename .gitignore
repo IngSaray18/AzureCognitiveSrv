@@ -26,6 +26,6 @@ ENV/
 .env
 
 # images
-.jpg
-.png
-.gif
+*.jpg
+*.png
+*.gif
